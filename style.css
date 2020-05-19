@@ -1,0 +1,136 @@
+header{
+    display: flex;
+    justify-content: right;
+    border: 2px solid black;
+    width: 58%;
+    height: 90vh;
+    margin: 20px 10px 0 300px;
+    border-radius: 10px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+#account{
+    display: flex;
+    justify-content: center;
+    margin-top: 47px;
+}
+figure{
+    width: 240px;
+    height: 300px;
+}
+figcaption{
+    text-align: center;
+}
+#logo{
+    height: 30px;
+    margin: 30px;
+}
+h2{
+    color: #202124;
+    margin-top: -15px;
+    margin-left: -95px;
+    padding-bottom: 0;
+    text-align: center;
+}
+h4{
+    display: none;
+    margin: 11px 68px 51px 29px;
+    color: #e01f15;
+}
+span{
+    background-color: #e01f15;
+    color: white;
+    border-radius: 70%;
+    font-size: 10px;
+    padding: 4px 7px;
+}
+div{
+    display: inline;
+    position: relative;
+}
+input{
+    font-size: 14px;
+    height: 20px;
+    padding: 7px 11px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #96a0a9;
+}
+label{
+    position: absolute;
+    pointer-events: none;
+    left: 45px;
+    top: -1px;
+    color: #96a0a9;
+    transition: 0.2s ease all;
+}
+#name{
+    margin: 0 0 10px 25px;
+}
+#last-name{
+    margin-left: 20px;
+}
+#mail{
+    margin: 20px 0 10px 20px;
+    width: 86%;
+}
+p{
+    margin-left: 20px;
+    color: rgb(39, 38, 38);
+}
+button{
+    background: none;
+    border: none;
+    color: blue;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#pin{
+    height: 20px;
+    padding: 7px 11px;
+    border-radius: 10px;
+    margin: 20px 0 10px 20px;
+}
+#confirm{
+    height: 20px;
+    padding: 7px 11px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+i{
+    font-size: 20px;
+}
+#signin{
+    margin-top: 40px;
+}
+#signin:hover{
+    background: #f6fafe;
+    opacity: 1;
+}
+#next{
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+#next:hover{
+    background-color: rgba(63, 63, 196, 0.699);
+    cursor: pointer;
+}
+input:focus ~ label {
+    left: 45px;
+    top: -17px;
+    font-size: 14px;
+    padding: 0px 4px 4px 4px;
+    color: #4285f4;
+    background-color: white;
+}
+input:focus {
+    border: 1px solid #4285f4;
+}
+

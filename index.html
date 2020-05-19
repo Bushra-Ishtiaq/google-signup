@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
+        integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c3b87437d9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Google signup</title>
+</head>
+
+<body>
+    <header>
+        <main>
+
+            <div>
+                <img id="logo" src="google.png" alt="Google-logo">
+
+                <h2>Create your Google Account</h2>
+
+                <form action="#">
+
+                    <div>
+                        <input class="my-input" type="text" name="name" id="name" required>
+                        <label for="">First Name</label>
+                    </div>
+
+                    <div>
+                        <input class="my-input" type="text" name="last-name" id="last-name" required>
+                        <label for="">Last Name</label>
+                    </div>
+
+                    <h4 class="error-text"> <span><i class="fas fa-exclamation"></i></span> Enter first name</h4>
+
+                    <h4 class="error-text"> <span><i class="fas fa-exclamation"></i></span> Enter last name</h4>
+
+                    <br>
+
+                    <div>
+                        <input class="my-input" type="email" id="mail" required">
+                        <label for="">Username </label>
+                    </div>
+
+                    <h4 class="error-text"> <span> <i class="fas fa-exclamation"></i></span>Choose a Gmail address </h4>
+
+                    <p>You can use letters, numbers & periods</p>
+
+                    <button>Use my current email address instead</button>
+
+                    <br>
+
+                    <div>
+                        <input class="my-input" id="pin" type="password">
+                        <label for="">Password</label>
+                    </div>
+
+                    <div>
+                        <input class="my-input" id="confirm" type="password">
+                        <label for="">Confirm</label>
+                    </div>
+
+                    <i class="far fa-eye-slash"></i>
+
+                    <h4 class="error-text"> <span><i class="fas fa-exclamation"></i></span>Enter a password </h4>
+
+                    <p>
+                        Use 8 or more characters with a mix of letters, numbers & symbols
+                    </p>
+
+                    <div>
+                        <button id="signin">Sign in instead</button>
+                        <button onclick="errorForm()" id="next" type="submit">Next</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div id="item2">
+                <div id="account">
+                    <figure>
+                        <img id="account-logo" src="account.svg" alt="account">
+                        <figcaption>
+                            One account. All of Google working for you.
+                        </figcaption>
+                    </figure>
+
+                </div>
+            </div>
+
+        </main>
+
+    </header>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
